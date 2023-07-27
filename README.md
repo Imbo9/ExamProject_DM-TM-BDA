@@ -6,14 +6,18 @@ https://archive.ics.uci.edu/dataset/280/higgs
 ## Objective
 
 The project consisit in the application of **3** between **classification and clustering algorithms**:
+
 * Decision Tree Classifier
 * Random Forest Classifier
 * K-Means Clustering
+  
 to the original dataset and some meaningful variations of it:
+
 * original dataset (with dropped NaNs)
 * dataset with only features selected by the variance
 * dataset with only function columns
 * dataset with only kinematic features columns
+  
 The experiment rely on **PySpark** and **HDFS**.
 
 ## Setup
